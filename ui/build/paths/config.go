@@ -122,6 +122,8 @@ var Configuration = map[string]PathConfig{
 	"unzip":   Allowed,
 	"zcat":    Allowed,
 	"zip":     Allowed,
+	"arm-linux-androidkernel-as": Allowed,
+	"arm-linux-androidkernel-ld": Allowed,
 
 	"aarch64-linux-android-addr2line":    Allowed,
 	"aarch64-linux-android-ar":           Allowed,
